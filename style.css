@@ -1,0 +1,137 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	color: #fff;
+	font-family: 'PT Serif', serif;
+	position: relative;
+	text-align: center;
+}
+
+nav {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	justify-content: space-around;
+}
+
+.jumbo {
+	height: 600px;
+	width: 100%;
+	position: relative;
+	bottom: 50px;
+	z-index: -10;
+}
+
+#header {
+	background: url("nightcity.jpg") 40%;
+ }
+
+ h1 {
+ 	text-align: center;
+ 	padding-top: 200px;
+ 	font-size: 3em;
+ 	font-weight: thin;
+    color: #fff;
+    letter-spacing: 2px;
+ }
+
+ h2 {
+ 	text-align: center;
+ 	padding-top: 50px;
+ 	letter-spacing: 3px;
+ 	font-size: 2em;
+ }
+
+ button {
+ 	border: none;
+ 	width: 200px;
+ 	height: 45px;
+ 	display: block;
+ 	margin: 15px auto;
+ 	color: #fff;
+ 	background: #222;
+}
+
+nav {
+	padding-top: 25px;
+}
+
+h3 {
+	color: #fff;
+	margin-left: 15px;
+}
+
+ul {
+	margin: 0 auto;
+	color: #fff;
+}
+
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 1.3em;
+}
+
+#logos {
+	margin-right: 25px;
+}
+
+#products {
+	background: #38383B;
+	margin-top: -50px;
+	padding-bottom: 100px;
+}
+
+ p {
+	margin-top: 50px;
+	font-size: 1.3em;
+}
+
+
+#gallery {
+	display: grid;
+	grid-template-columns: repeat(3,400px);
+	grid-gap: 25px;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+img {
+	width: 100%;
+}
+
+.image p {
+	font-size: 1.8em;
+	margin-top: 25px;
+}
+
+#banner {
+	background: url("lake.webp") bottom;
+	height: 500px;
+}
+
+#blog {
+	background: #A8A6A1;
+	height: 600px;
+}
+
+#blog-posts {
+  display: flex;
+  justify-content: center;
+}
+
+
+.video {
+	height: 337px;
+	overflow: hidden;
+	margin: 25px 15px;
+}
+
+#blog-posts video {
+  max-width: 600px;
+
+}
+
