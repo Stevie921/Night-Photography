@@ -75,6 +75,11 @@ li {
   font-size: 1.3em;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 #logos {
 	margin-right: 25px;
 }
@@ -213,6 +218,18 @@ input {
   width: 300px;
 }
 
+
+footer {
+	background: #222;
+	height: 150px;
+	font-size: 1.5em;
+	padding-top: 25px;
+}
+
+
+footer h3 {
+   margin-top: 15px;
+}
 
 
 
